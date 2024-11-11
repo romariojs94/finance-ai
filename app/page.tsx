@@ -9,7 +9,7 @@ const page = async () => {
     redirect("/login");
   }
   return (
-    <div className="h-100-items-center flex min-h-screen items-center justify-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
+    <div className="h-100-items-center font- flex min-h-screen items-center justify-center gap-16 p-8 pb-20 [family-name:var(--font-geist-sans)] sm:p-20">
       <UserButton showName />
     </div>
   );
